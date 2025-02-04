@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "title": "Learn json-server",
+      "completed": false,
+      "completedAt": "2023-08-15T10:00:00Z"
+    },
+    {
+      "id": "ba16",
+      "title": "play gow",
+      "completed": false,
+      "completedAt": "2025-02-04T11:30:51.438Z"
+    }
+  ]
+}
