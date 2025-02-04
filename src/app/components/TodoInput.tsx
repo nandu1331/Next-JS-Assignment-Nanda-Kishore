@@ -1,4 +1,6 @@
 // components/TodoInput.tsx
+"use client";  // Add this at the top of pages/todo/[id].tsx
+
 import React, { useState } from 'react';
 import { Plus } from 'lucide-react';
 

@@ -1,4 +1,6 @@
 // pages/todo/[id].tsx
+"use client";
+
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Trash2, Check, ArrowLeft } from 'lucide-react';
@@ -11,10 +13,10 @@ export default function TodoDetail() {
   const [editTitle, setEditTitle] = useState('');
 
   useEffect(() => {
-    if (id) {
-      fetchTodo();
-    }
-  }, [id]);
+  if (router.isReady && id) {
+    fetchTodo();
+  }
+}, [router.isReady, id]);
 
   const fetchTodo = async () => {
     const response = await fetch(`http://localhost:3001/todos/${id}`);

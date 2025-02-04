@@ -1,4 +1,6 @@
 // components/TodoItem.tsx
+"use client";  // Add this at the top of pages/todo/[id].tsx
+
 import React from 'react';
 import { Todo } from '../types/todo';
 import { Check, Edit, Trash2, GripVertical } from 'lucide-react';

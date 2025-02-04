@@ -1,4 +1,6 @@
 // pages/index.tsx
+"use client";  // Add this at the top of pages/todo/[id].tsx
+
 import React, { useState, useEffect } from 'react';
 import { Sun, Moon } from 'lucide-react';
 import { Todo, FilterType } from '../types/todo';

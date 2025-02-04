@@ -1,4 +1,6 @@
 // components/TodoFilters.tsx
+"use client";  // Add this at the top of pages/todo/[id].tsx
+
 import React from 'react';
 import { FilterType } from '../types/todo';
 

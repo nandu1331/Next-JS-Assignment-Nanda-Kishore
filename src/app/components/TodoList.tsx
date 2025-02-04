@@ -1,4 +1,6 @@
 // components/TodoList.tsx
+"use client";  // Add this at the top of pages/todo/[id].tsx
+
 import React from 'react';
 import { Todo } from '../types/todo';
 import TodoItem from './TodoItem';
